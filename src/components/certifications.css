@@ -1,0 +1,12 @@
+@media (max-width: 900px) {
+  .certGrid {
+    grid-template-columns: 1fr !important;
+    max-width: 600px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .certContainer {
+    padding: 0 20px !important;
+  }
+}

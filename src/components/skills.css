@@ -1,0 +1,15 @@
+@media (max-width: 560px) {
+  .skillsContainer {
+    padding: 0 20px !important;
+  }
+
+  .skillsTabs {
+    gap: 16px !important;
+  }
+
+  .skillCardItem {
+    min-width: 0 !important;
+    width: 100% !important;
+    justify-content: flex-start !important;
+  }
+}

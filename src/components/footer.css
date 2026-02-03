@@ -1,0 +1,22 @@
+/* hover effects */
+.footerIcon:hover {
+  border-color: rgba(201, 162, 39, 0.85) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6) !important;
+}
+
+.footerLink:hover {
+  color: #c9a227 !important;
+}
+
+/* responsive */
+@media (max-width: 560px) {
+  .footerContainer {
+    padding: 0 20px !important;
+  }
+
+  .footerLinksGrid {
+    grid-template-columns: 1fr !important;
+    gap: 26px !important;
+  }
+}
