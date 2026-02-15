@@ -38,7 +38,7 @@ function Skills() {
   return (
     <section id="skills" style={styles.skills}>
       <div style={styles.container}>
-        <h2 style={styles.heading}>My Skills</h2>
+        <h2 style={styles.heading}>Skills</h2>
         <div style={styles.fullLine}></div>
 
         {/* CATEGORY TABS */}
@@ -109,7 +109,7 @@ const styles = {
   },
 
   heading: {
-    fontSize: "34px",
+    fontSize: "28px",
     fontWeight: 800,
     color: "#ffffff",
     marginBottom: "12px",

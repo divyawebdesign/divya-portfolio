@@ -44,7 +44,7 @@ function Projects() {
   return (
     <section id="projects" style={styles.projects}>
       <div className="projectsContainer" style={styles.container}>
-        <h2 style={styles.heading}>My Projects</h2>
+        <h2 style={styles.heading}>Projects</h2>
         <div style={styles.fullLine}></div>
 
         <div className="projectsGrid" style={styles.grid}>

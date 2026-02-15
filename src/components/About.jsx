@@ -65,7 +65,7 @@ const styles = {
   },
 
   heading: {
-    fontSize: "32px",
+    fontSize: "28px",
     fontWeight: 800,
     color: "#ffffff",
     marginBottom: "12px",
