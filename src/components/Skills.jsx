@@ -152,7 +152,7 @@ tabUnderline: {
 
   row: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(190px, 1fr))",
+    gridTemplateColumns: "repeat(2, 1fr)", // TWO per row
     gap: "14px",
     width: "100%",
   },
@@ -164,7 +164,6 @@ tabUnderline: {
     justifyContent: "center",
     gap: "12px",
     padding: "14px 18px",
-    minWidth: "190px",
     borderRadius: "10px",
     border: "1px solid rgba(201,162,39,0.35)",
     background: "rgba(255,255,255,0.02)",
