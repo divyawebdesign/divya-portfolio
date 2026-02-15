@@ -12,17 +12,10 @@
 /* Mobile */
 @media (max-width: 560px) {
 
-  .achGrid {
-    grid-template-columns: 1fr !important;   /* single column */
-    gap: 16px !important;
-  }
-
-  #achievements {
-    padding: 60px 0 !important;
-  }
-
-  #achievements h2 {
-    font-size: 22px !important;   /* reduce heading */
+  .achContainer {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 
 }
+
