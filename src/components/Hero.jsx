@@ -61,11 +61,13 @@ function Hero() {
 }
 
 const styles = {
-  hero: {
-    minHeight: "90vh",
-    display: "flex",
-    alignItems: "center",
-  },
+ hero: {
+  minHeight: "90vh",
+  display: "flex",
+  alignItems: "center",
+  padding: "60px 0",
+},
+
 
   container: {
     maxWidth: "1300px",
