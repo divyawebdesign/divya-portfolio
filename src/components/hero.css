@@ -1,11 +1,16 @@
 /* ===== MOBILE HERO FIX ===== */
 
 @media (max-width: 900px) {
-
+  #home {
+    min-height: auto !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .heroWrap {
     flex-direction: column !important;
     align-items: center !important;
     text-align: center;
+    gap: 20px !important;
   }
 
   /* Move image ABOVE text */
