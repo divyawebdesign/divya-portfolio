@@ -17,11 +17,23 @@
 
   /* PERFECT circular image */
   .heroImg {
-    width: 180px !important;
-    height: 180px !important;
+    width: 200px !important;
+    height: 200px !important;
     border-radius: 50% !important;
     object-fit: cover !important;
-    object-position: top center !important;
+    object-position: center 20% !important;
+
+    border: 3px solid rgba(201,162,39,0.6);
+
+    box-shadow:
+      0 0 0 6px rgba(201,162,39,0.08),
+      0 20px 40px rgba(0,0,0,0.6);
+
+    transition: transform 0.3s ease;
+  }
+
+  .heroImg:hover {
+    transform: scale(1.03);
   }
 
 
