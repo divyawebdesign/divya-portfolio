@@ -22,24 +22,31 @@
 
   /* PERFECT circular image */
   .heroImg {
-    width: 200px !important;
-    height: 200px !important;
-    border-radius: 50% !important;
-    object-fit: cover !important;
-    object-position: center 20% !important;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center 20% !important;
 
-    border: 3px solid rgba(201,162,39,0.6);
+  border: 2px solid rgba(201,162,39,0.6);
 
-    box-shadow:
-      0 0 0 6px rgba(201,162,39,0.08),
-      0 20px 40px rgba(0,0,0,0.6);
+  box-shadow:
+    0 0 0 6px rgba(201,162,39,0.06),
+    0 10px 30px rgba(0,0,0,0.6);
 
-    transition: transform 0.3s ease;
-  }
+  transition: all 0.35s ease;
+}
+
 
   .heroImg:hover {
-    transform: scale(1.03);
-  }
+  box-shadow:
+    0 0 12px rgba(201,162,39,0.5),
+    0 0 30px rgba(201,162,39,0.25),
+    0 15px 40px rgba(0,0,0,0.7);
+
+  transform: scale(1.03);
+}
+
 
 
 }
