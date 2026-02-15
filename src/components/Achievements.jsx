@@ -32,8 +32,7 @@ function Achievements() {
 
   return (
     <section id="achievements" style={styles.section}>
-      <div style={styles.container}>
-
+      <div className="achContainer" style={styles.container}>
         <h2 style={styles.heading}>Achievements</h2>
         <div style={styles.fullLine}></div>
         <div className="achGrid" style={styles.grid}>

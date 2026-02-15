@@ -37,7 +37,7 @@ function Skills() {
 
   return (
     <section id="skills" style={styles.skills}>
-      <div style={styles.container}>
+     <div className="skillsContainer" style={styles.container}>
         <h2 style={styles.heading}>Skills</h2>
         <div style={styles.fullLine}></div>
 
