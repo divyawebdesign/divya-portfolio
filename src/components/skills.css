@@ -7,10 +7,6 @@
   }
 
   /* convert flex row into grid ONLY on mobile */
-  #skills div[style*="flex-wrap"] {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 12px !important;
-  }
+
 
 }

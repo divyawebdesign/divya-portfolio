@@ -15,19 +15,18 @@
     width: 100%;
   }
 
-  /* Make circular image */
+  /* PERFECT circular image */
   .heroImg {
     width: 180px !important;
     height: 180px !important;
     border-radius: 50% !important;
     object-fit: cover !important;
-    max-width: none !important;
   }
 
 }
 
-
 @media (max-width: 560px) {
+
   .heroContainer {
     padding: 0 20px !important;
   }
@@ -42,15 +41,14 @@
 
   .heroBtns {
     flex-direction: column !important;
-    width: 100% !important;
+    align-items: center;
+    gap: 12px;
   }
 
+  /* Buttons centered but NOT full width */
   .heroBtns button {
-    width: 100% !important;
+    max-width: 260px;
+    width: auto !important;
   }
 
-  .heroImg {
-    max-width: 100% !important;
-    height: 360px !important;
-  }
 }

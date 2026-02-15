@@ -151,11 +151,12 @@ tabUnderline: {
 
 
   row: {
-    display: "flex",
-    flexWrap: "wrap",
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(190px, 1fr))",
     gap: "14px",
     width: "100%",
   },
+
 
   skillCard: {
     display: "flex",

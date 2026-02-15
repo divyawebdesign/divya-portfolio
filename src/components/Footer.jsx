@@ -11,10 +11,12 @@ function Footer() {
   ];
 
   const moreLinks = [
-    { name: "Education", href: "#education" },
-    { name: "Certifications", href: "#certifications" },
-    { name: "Contact", href: "#contact" },
-  ];
+  { name: "Education", href: "#education" },
+  { name: "Certifications", href: "#certifications" },
+  { name: "Achievements", href: "#achievements" }, // added
+  { name: "Contact", href: "#contact" },
+];
+
 
   return (
     <footer id="contact" style={styles.footer}>
@@ -89,8 +91,8 @@ function Footer() {
         {/* BOTTOM */}
         <div style={styles.bottom}>
           <p style={styles.bottomText}>
-            Designed by <span style={styles.gold}>Divya</span> • All rights
-            reserved.
+            © {new Date().getFullYear()} Designed by{" "}
+            <span style={styles.gold}>Divya</span>. All rights reserved.
           </p>
         </div>
       </div>

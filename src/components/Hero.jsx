@@ -4,6 +4,7 @@ function Hero() {
   return (
     <section id="home" style={styles.hero}>
       <div className="heroContainer heroWrap" style={styles.container}>
+        
         {/* LEFT CONTENT */}
         <div style={styles.left}>
           <h1 className="heroTitle" style={styles.title}>
@@ -20,44 +21,24 @@ function Hero() {
           </p>
 
           <div className="heroBtns" style={styles.buttons}>
+
             {/* Download Resume */}
-            <a
-              href="/Divya-Resume.pdf"
-              download
-              style={{ textDecoration: "none" }}
-            >
-              <button
-                style={styles.secondaryBtn}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = "#C9A227";
-                  e.currentTarget.style.color = "#C9A227";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = "rgba(201,162,39,0.65)";
-                  e.currentTarget.style.color = "#ffffff";
-                }}
-              >
+            <a href="/Divya-Resume.pdf" download style={{ textDecoration: "none" }}>
+              <button style={styles.secondaryBtn}>
                 Download Resume
               </button>
             </a>
 
             {/* Contact Me */}
             <a
-              href="mailto:divyasenthilkumar22@gmail.com?subject=Portfolio%20Contact%20-%20Divya&body=Hi%20Divya,%0A%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20connect.%0A%0AThanks,"
+              href="mailto:divyasenthilkumar22@gmail.com?subject=Portfolio%20Contact%20-%20Divya"
               style={{ textDecoration: "none" }}
             >
-              <button
-                style={styles.primaryBtn}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.filter = "brightness(1.05)";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.filter = "brightness(1)";
-                }}
-              >
+              <button style={styles.primaryBtn}>
                 Contact Me
               </button>
             </a>
+
           </div>
         </div>
 
@@ -70,6 +51,7 @@ function Hero() {
             style={styles.profileImg}
           />
         </div>
+
       </div>
     </section>
   );
@@ -145,7 +127,6 @@ const styles = {
     cursor: "pointer",
     fontWeight: 600,
     borderRadius: "6px",
-    transition: "all 0.25s ease",
   },
 
   secondaryBtn: {
@@ -156,7 +137,6 @@ const styles = {
     cursor: "pointer",
     fontWeight: 600,
     borderRadius: "6px",
-    transition: "all 0.25s ease",
   },
 };
 

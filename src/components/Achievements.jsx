@@ -8,7 +8,7 @@ function Achievements() {
       title: "Research Paper Publication",
       desc: "Published research paper on Secure Travel Router focusing on enhancing privacy and security while using public WiFi networks.",
       icon: <FaFileAlt />,
-      link: "https://lnkd.in/g9PnxGJw",   // ✅ paper link
+      link: "https://pubs.aip.org/aip/acp/article-abstract/3345/1/020361/3376897/Enhancing-user-privacy-and-WiFi-security-of-travel?redirectedFrom=fulltext",   // ✅ paper link
       linkText: "Read Published Paper →"
     },
 
