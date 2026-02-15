@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+@media (max-width: 560px) {
+
+  #skills > div,
+  #achievements > div,
+  #education > div,
+  #projects > div,
+  #about > div,
+  #certifications > div {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+}
