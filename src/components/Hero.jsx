@@ -44,12 +44,15 @@ function Hero() {
 
         {/* RIGHT IMAGE */}
         <div className="heroRight" style={styles.right}>
-          <img
-            src="/profile.png"
-            alt="Divya"
-            className="heroImg"
-            style={styles.profileImg}
-          />
+
+         <div className="heroImgWrapper">
+            <img
+              src="/profile.png"
+              alt="Divya"
+              className="heroImg"
+              style={styles.profileImg}
+            />
+          </div>
         </div>
 
       </div>

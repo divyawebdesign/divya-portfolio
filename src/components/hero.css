@@ -37,8 +37,7 @@
   transition: all 0.35s ease;
 }
 
-
-  .heroImg:hover {
+.heroImg:hover {
   box-shadow:
     0 0 12px rgba(201,162,39,0.5),
     0 0 30px rgba(201,162,39,0.25),
@@ -47,9 +46,55 @@
   transform: scale(1.03);
 }
 
-
-
+/* IMAGE WRAPPER (creates glow behind image) */
+.heroImgWrapper {
+  position: relative;
+  display: inline-block;
 }
+
+/* Halo glow layer */
+.heroImgWrapper::before {
+  content: "";
+  position: absolute;
+  inset: -25px;
+  border-radius: 50%;
+
+  background: radial-gradient(
+    circle,
+    rgba(201,162,39,0.35) 0%,
+    rgba(201,162,39,0.15) 40%,
+    transparent 70%
+  );
+
+  filter: blur(18px);
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+
+/* Image itself */
+.heroImg {
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center 20% !important;
+
+  border: 2px solid rgba(201,162,39,0.6);
+
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+
+  transition: transform 0.35s ease;
+}
+
+/* Hover interaction */
+.heroImgWrapper:hover .heroImg {
+  transform: scale(1.04);
+}
+
+.heroImgWrapper:hover::before {
+  opacity: 1;
+}
+
 
 @media (max-width: 560px) {
 
