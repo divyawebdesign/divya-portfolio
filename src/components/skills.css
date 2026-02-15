@@ -1,12 +1,8 @@
-/* MOBILE ONLY */
 @media (max-width: 560px) {
 
-  /* reduce heading size only on mobile */
-  #skills h2 {
-    font-size: 28px !important;
+  #skills > div {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
-
-  /* convert flex row into grid ONLY on mobile */
-
 
 }
