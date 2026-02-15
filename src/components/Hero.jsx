@@ -104,10 +104,11 @@ const styles = {
   },
 
   subtitle: {
-    fontSize: "28px",
-    color: "#C9A227",
-    marginBottom: "20px",
-  },
+  fontSize: "28px",
+  color: "#bbbbbb",
+  marginBottom: "20px",
+},
+
 
   description: {
     fontSize: "16px",
