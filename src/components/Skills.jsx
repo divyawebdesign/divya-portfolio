@@ -5,66 +5,28 @@ import { VscVscode } from "react-icons/vsc";
 
 function Skills() {
   const categories = [
-    "All",
-    "Programming",
-    "Frontend",
-    "Backend",
-    "Database",
-    "Tools",
-  ];
+  "All",
+  "Programming",
+  "Database",
+  "Tools",
+];
+
 
   const allSkills = [
-    {
-      name: "HTML",
-      category: "Frontend",
-      icon: <FaHtml5 color="#E44D26" />,
-    },
-    {
-      name: "CSS",
-      category: "Frontend",
-      icon: <FaCss3Alt color="#1572B6" />,
-    },
-    {
-      name: "JavaScript",
-      category: "Programming",
-      icon: <FaJsSquare color="#F7DF1E" />,
-    },
-    {
-      name: "React",
-      category: "Frontend",
-      icon: <SiReact color="#61DAFB" />,
-    },
-    {
-      name: "PHP",
-      category: "Programming",
-      icon: <SiPhp color="#777BB4" />,
-    },
-    {
-      name: "Node.js",
-      category: "Backend",
-      icon: <FaNodeJs color="#3C873A" />,
-    },
-    {
-      name: "MySQL",
-      category: "Database",
-      icon: <SiMysql color="#00758F" />,
-    },
-    {
-      name: "MongoDB",
-      category: "Database",
-      icon: <SiMongodb color="#47A248" />,
-    },
-    {
-      name: "Figma",
-      category: "Tools",
-      icon: <SiFigma color="#F24E1E" />,
-    },
-    {
-      name: "VS Code",
-      category: "Tools",
-      icon: <VscVscode color="#007ACC" />,
-    },
-  ];
+  { name: "HTML", category: "Programming", icon: <FaHtml5 color="#E44D26" /> },
+  { name: "CSS", category: "Programming", icon: <FaCss3Alt color="#1572B6" /> },
+  { name: "JavaScript", category: "Programming", icon: <FaJsSquare color="#F7DF1E" /> },
+  { name: "React", category: "Programming", icon: <SiReact color="#61DAFB" /> },
+  { name: "PHP", category: "Programming", icon: <SiPhp color="#777BB4" /> },
+  { name: "Node.js", category: "Programming", icon: <FaNodeJs color="#3C873A" /> },
+
+  { name: "MySQL", category: "Database", icon: <SiMysql color="#00758F" /> },
+  { name: "MongoDB", category: "Database", icon: <SiMongodb color="#47A248" /> },
+
+  { name: "Figma", category: "Tools", icon: <SiFigma color="#F24E1E" /> },
+  { name: "VS Code", category: "Tools", icon: <VscVscode color="#007ACC" /> },
+];
+
 
   const [active, setActive] = useState("All");
 

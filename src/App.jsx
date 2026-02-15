@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Education from "./components/Education";
 import Certifications from "./components/Certifications";
+import Achievements from "./components/Achievements";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <Education />
       <Certifications/>
+      <Achievements/>
       <Footer />
     </div>
   );

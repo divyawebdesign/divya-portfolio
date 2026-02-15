@@ -1,15 +1,16 @@
+/* MOBILE ONLY */
 @media (max-width: 560px) {
-  .skillsContainer {
-    padding: 0 20px !important;
+
+  /* reduce heading size only on mobile */
+  #skills h2 {
+    font-size: 24px !important;
   }
 
-  .skillsTabs {
-    gap: 16px !important;
+  /* convert flex row into grid ONLY on mobile */
+  #skills div[style*="flex-wrap"] {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px !important;
   }
 
-  .skillCardItem {
-    min-width: 0 !important;
-    width: 100% !important;
-    justify-content: flex-start !important;
-  }
 }

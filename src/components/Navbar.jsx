@@ -12,6 +12,7 @@ function Navbar() {
     "Education",
     "Certifications",
     "Projects",
+    "Achievements",
     "Contact",
   ];
 
@@ -22,6 +23,7 @@ function Navbar() {
     Education: "education",
     Certifications: "certifications",
     Projects: "projects",
+    Achievements: "achievements",
     Contact: "contact",
   };
 

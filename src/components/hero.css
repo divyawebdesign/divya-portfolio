@@ -1,21 +1,31 @@
+/* ===== MOBILE HERO FIX ===== */
+
 @media (max-width: 900px) {
+
   .heroWrap {
     flex-direction: column !important;
-    align-items: flex-start !important;
-    gap: 34px !important;
+    align-items: center !important;
+    text-align: center;
   }
 
+  /* Move image ABOVE text */
   .heroRight {
-    justify-content: flex-start !important;
-    width: 100% !important;
+    order: -1;
+    justify-content: center !important;
+    width: 100%;
   }
 
+  /* Make circular image */
   .heroImg {
-    width: 100% !important;
-    max-width: 420px !important;
-    height: 420px !important;
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    max-width: none !important;
   }
+
 }
+
 
 @media (max-width: 560px) {
   .heroContainer {

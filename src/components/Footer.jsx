@@ -17,7 +17,7 @@ function Footer() {
   ];
 
   return (
-    <footer style={styles.footer}>
+    <footer id="contact" style={styles.footer}>
       <div className="footerContainer" style={styles.container}>
         <p style={styles.thanks}>
           Thank you for visiting my personal portfolio.
